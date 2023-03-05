@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "helvetica";
+  src: url("./fonts/helvetica_regular.otf");
+}
+
+@font-face {
+  font-family: "New-YorkerC";
+  src: url("./fonts/New-YorkerC.ttf");
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: white;
+  max-width: 1728px;
+  overflow: hidden;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.main-wrapper {
+  max-width: 1428px;
+  margin: 0 auto;
+}
+
+.color-wrapper {
+  background-color: #222120;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: #fa7d22;
+}
+
+/*Header*/
+
+.nav-title {
+  position: absolute;
+  width: 100%;
+}
+
+.nav-title__list {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1428px;
+  padding-top: 100px;
+  align-items: center;
+}
+
+.nav-title__link {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.nav-title__icon {
+  padding-left: 7px;
+}
+
+/*Main*/
+
+.title__title-text {
+  font-family: "New-YorkerC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 49px;
+  margin-top: 26px;
+  margin-bottom: 25px;
+}
+
+.title__top {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  height: 800px;
+}
